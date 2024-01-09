@@ -18,7 +18,7 @@ const Hero = () => {
         {/* RIGHT */}
         <div className="flex flex-col justify-between items-center  h-full">
           <div className="flex-col">
-            <h1 className="text-4xl md:text-6xl font-bold">Eric Daniels</h1>
+            <h1 className="text-4xl md:text-6xl font-bold ">Eric Daniels<span className="animate-blink font-normal text-pink-200">|</span></h1>
             <h2 className="text-md md:text-2xl font-semibold">
               Software Developer
             </h2>
