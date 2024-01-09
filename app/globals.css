@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+h3 {
+  font-family:  monospace;
+}
+
 @keyframes blink {
   0% {
     opacity: 1;

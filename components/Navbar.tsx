@@ -16,18 +16,18 @@ const Navbar = () => {
 
   return (
     <nav className="sticky bg-white flex flex-1 items-center justify-center shadow-lg w-full top-0 left-0 right-0 px-10 z-50">
-      <div className="bg-white container py-6 md:py-8 md:px-16 flex flex-1 items-center justify-between">
+      <div className="bg-white container py-4 md:py-5 md:px-16 flex flex-1 items-center justify-between">
         <Link href="#">
           <Image
             src="/assets/images/eric-logo.png"
             height={10}
-            width={200}
+            width={150}
             alt="Logo"
           />
         </Link>
 
         {/* DESKTOP NAV */}
-        <ul className="md:flex gap-10 text-xl font-semibold" hidden>
+        <ul className="md:flex gap-10 text-base font-semibold" hidden>
           <li>
             <Link
               href="#about"

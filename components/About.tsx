@@ -33,10 +33,7 @@ const About = () => {
   const daysUntilBirthday: number = Math.ceil(diff / (1000 * 60 * 60 * 24));
 
   return (
-    <section
-      id="about"
-      className="py-28 bg-slate-50 px-4 md:px-16 flex flex-col justify-center items-center"
-    >
+    <section className="py-28 bg-slate-50 px-4 md:px-16 flex flex-col justify-center items-center">
       <div className="container mx-auto flex justify-center items-center">
         <article className="flex-col flex space-y-4 w-full items-center justify-center">
           <div className="w-full max-w-[700px]">
@@ -68,7 +65,12 @@ const About = () => {
 
             {/*  ROW 2*/}
             <div className="border-black border-2 rounded-xl text-center col-span-4 row-span-1 flex justify-center items-center text-lg font-semibold bg-[url('/assets/images/volley.gif')] bg-center bg-transparent">
-              <div style={{backgroundColor: "rgba(0, 0, 0, 0.4)"}} className="w-full h-full flex items-center justify-center text-white">Volleyball 🏐</div>
+              <div
+                style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
+                className="w-full h-full flex items-center justify-center text-white"
+              >
+                Volleyball 🏐
+              </div>
             </div>
 
             <Link
@@ -88,6 +90,7 @@ const About = () => {
           </div>
 
           {/* END BENTO */}
+          <div id="projects"></div>
         </article>
       </div>
     </section>
