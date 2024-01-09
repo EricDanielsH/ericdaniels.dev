@@ -67,8 +67,8 @@ const About = () => {
             </div>
 
             {/*  ROW 2*/}
-            <div className="border-black border-2 rounded-xl text-center col-span-4 row-span-1 flex justify-center items-center text-lg bg-gradient-to-r from-rose-400 via-red-400 to-red-500 font-semibold text-white">
-              Volleyball 🏐
+            <div className="border-black border-2 rounded-xl text-center col-span-4 row-span-1 flex justify-center items-center text-lg font-semibold bg-[url('/assets/images/volley.gif')] bg-center bg-transparent">
+              <div style={{backgroundColor: "rgba(0, 0, 0, 0.4)"}} className="w-full h-full flex items-center justify-center text-white">Volleyball 🏐</div>
             </div>
 
             <Link
