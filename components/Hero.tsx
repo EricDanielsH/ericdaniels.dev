@@ -13,21 +13,23 @@ const Hero = () => {
           width={300}
           height={300}
           alt="hero"
-          className="md:flex rounded-full border-[2px] border-black shadow-lg"
+          className="md:flex rounded-full max-w-[250px] border-[2px] border-black shadow-lg"
         />
         {/* RIGHT */}
         <div className="flex flex-col justify-between items-center  h-full">
           <div className="flex-col">
-            <h1 className="text-6xl  font-bold">Eric Daniels</h1>
-            <h2 className="text-2xl font-semibold">Software Developer</h2>
+            <h1 className="text-4xl md:text-6xl font-bold">Eric Daniels</h1>
+            <h2 className="text-md md:text-2xl font-semibold">
+              Software Developer
+            </h2>
           </div>
 
           {/* ICONS */}
-          <div className="flex justify-center gap-4 mt-6">
+          <div className="flex justify-center w-[200px] flex-col md:flex-row gap-4 mt-6">
             <Link
               href="https://www.linkedin.com/in/EricDanielsH/"
               target="_blank"
-              className="flex items-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-lg"
+              className="flex justify-center items-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-base md:text-lg shadow-md"
             >
               <FaLinkedin title="LinkedIn" size={30} />
               LinkedIn
@@ -35,7 +37,7 @@ const Hero = () => {
             <Link
               href="https://drive.google.com/file/d/138ZZrslqwzySRxC0CfdhYctMS8CwOFx3/view?usp=sharing"
               target="_blank"
-              className="flex items-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-lg"
+              className="flex justify-center items-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-base md:text-lg shadow-md"
             >
               <IoIosDocument title="CV" size={30} />
               Resume
@@ -43,7 +45,7 @@ const Hero = () => {
             <Link
               href="https://www.linkedin.com/in/EricDanielsH/"
               target="_blank"
-              className="flex items-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-lg"
+              className="flex justify-center items-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-base lg:text-lg shadow-md"
             >
               <FaGithub title="Github" size={30} />
               Github
