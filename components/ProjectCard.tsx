@@ -79,7 +79,9 @@ const ProjectCard = ({ id, title, description, image, icons, link }: Props) => {
       </div>
       {/* ICONS */}
       <div className="bg-pink-950 p-4 flex gap-2 rounded-b-xl">
-        {icons.map((icon, index) => logos[icon])}
+        {icons.map(
+          (icon, index) => logos[icon] && <div key={index}>{logos[icon]}</div>
+        )}
       </div>
     </article>
   );
