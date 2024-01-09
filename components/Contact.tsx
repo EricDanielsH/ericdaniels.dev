@@ -5,7 +5,7 @@ const Contact = () => {
 
   return (
     <section className="py-28 bg-slate-50 px-4 md:px-16 flex flex-col justify-center items-center">
-      <div className="container mx-auto flex flex-col justify-center items-center">
+      <div className="container mx-auto flex flex-col justify-center items-center space-y-4">
         <h3 className="text-xl font-semibold w-full max-w-[700px] ">
           / Contact Me
         </h3>
