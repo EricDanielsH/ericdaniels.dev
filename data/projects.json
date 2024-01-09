@@ -2,41 +2,56 @@
   {
     "id": 1,
     "title": "Promptopia",
-    "description": ["Website to post your best AI Prompts.", "Implements Google Auth"],
+    "description": [
+      "Website to post your best AI Prompts.",
+      "Implements Google Auth"
+    ],
     "image": "promptopia.png",
-    "icons": ["html", "css", "js"],
+    "icons": ["html", "js", "tailwind", "react", "nextjs", "google"],
     "link": "https://github.com/EricDanielsH/promptopia"
   },
   {
     "id": 2,
     "title": "Fitness App",
-    "description": ["A mobile app with multiple workouts and tutorials.", "Compatible with IOS & Android."],
+    "description": [
+      "A mobile app with multiple workouts and tutorials.",
+      "Compatible with IOS & Android."
+    ],
     "image": "fitness-app.png",
-    "icons": ["react", "nodejs", "express"],
+    "icons": ["tailwind", "js", "native"],
     "link": "https://github.com/EricDanielsH/fitness-app"
   },
   {
     "id": 3,
     "title": "Shopping Cart",
-    "description": ["Implementation of shopping cart functionalities.", "Used TypeScript for the first time"],
+    "description": [
+      "Implementation of shopping cart functionalities.",
+      "Used TypeScript for the first time"
+    ],
     "image": "shopping-cart.png",
-    "icons": ["python", "django", "postgresql"],
+    "icons": ["html", "tailwind", "ts", "react"],
     "link": "https://github.com/EricDanielsH/shopping-cart"
   },
   {
     "id": 4,
     "title": "Stardust Crusaders",
-    "description": ["A terminal game made with C.", "Takes inspiration from the old game 'SpaceWars!'"],
+    "description": [
+      "A terminal game made with C.",
+      "Takes inspiration from the old game 'SpaceWars!'"
+    ],
     "image": "stardust-crusaders.png",
-    "icons": ["react", "nodejs", "express"],
+    "icons": ["c"],
     "link": "https://github.com/EricDanielsH/StartdustCrusaders"
   },
   {
     "id": 5,
     "title": "Personal portfolio",
-    "description": ["Website to host all my projects.", "Will add a blog, Linktree and URL shortener in the future"],
+    "description": [
+      "Website to host all my projects.",
+      "Will add a blog, Linktree and URL shortener in the future"
+    ],
     "image": "promptopia.png",
-    "icons": ["react", "nodejs", "express"],
+    "icons": ["html", "tailwind", "ts", "react", "nextjs"],
     "link": "https://github.com/EricDanielsH/ericdaniels.dev"
   }
 ]

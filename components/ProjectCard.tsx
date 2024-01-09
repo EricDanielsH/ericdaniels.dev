@@ -1,8 +1,21 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Icon from "react-icons/io5"
-import { IoLogoJavascript, IoLogoGithub } from "react-icons/io5";
+import Icon from "react-icons/io5";
+import {
+  IoLogoJavascript,
+  IoLogoGithub,
+  IoLogoHtml5,
+  IoLogoReact,
+  IoLogoGoogle,
+} from "react-icons/io5";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiC,
+  SiTypescript,
+  SiGooglecloud,
+} from "react-icons/si";
 
 type Props = {
   id: number;
@@ -11,6 +24,30 @@ type Props = {
   image: string;
   icons: string[];
   link: string;
+};
+
+const logos: Record<string, JSX.Element> = {
+  html: <IoLogoHtml5 size={20} className="text-orange-400" title="HTML" />,
+  tailwind: (
+    <SiTailwindcss size={20} className="text-cyan-300" title="Tailwind" />
+  ),
+  js: (
+    <IoLogoJavascript
+      size={20}
+      className="text-yellow-300"
+      title="JavaScript"
+    />
+  ),
+  ts: <SiTypescript size={20} className="text-blue-600" title="" />,
+  react: <IoLogoReact size={20} className="text-cyan-400" title="React" />,
+  native: (
+    <IoLogoReact size={20} className="text-cyan-400" title="React Native" />
+  ),
+  nextjs: <SiNextdotjs size={20} className="text-white" title="Next.js" />,
+  google: (
+    <SiGooglecloud size={20} className="text-red-500" title="Google Cloud" />
+  ),
+  c: <SiC size={20} className="text-blue-500" title="C" />,
 };
 
 const ProjectCard = ({ id, title, description, image, icons, link }: Props) => {
@@ -29,7 +66,7 @@ const ProjectCard = ({ id, title, description, image, icons, link }: Props) => {
         target="_blank"
         className="absolute shadow-lg rounded-full top-0 right-0 m-3 cursor-pointer hover:text-pink-300 bg-white"
       >
-        <IoLogoGithub  size={30}  />
+        <IoLogoGithub size={30} />
       </Link>
 
       <div className="h-[150px] w-full flex flex-col justify-end items-start pt-12 p-4 ">
@@ -39,6 +76,10 @@ const ProjectCard = ({ id, title, description, image, icons, link }: Props) => {
             {desc}
           </p>
         ))}
+      </div>
+      {/* ICONS */}
+      <div className="bg-pink-950 p-4 flex gap-2 rounded-b-xl">
+        {icons.map((icon, index) => logos[icon])}
       </div>
     </article>
   );
