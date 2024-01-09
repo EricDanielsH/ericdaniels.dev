@@ -28,8 +28,39 @@ body {
   }
 }
 
-@layer utilities {
-  .animate-blink {
-    animation: blink 1s linear infinite;
+@keyframes typing {
+  0% {
+    width: 0ch
+  }
+  100% {
+    width: 12ch;
   }
 }
+
+@keyframes blink-border {
+  0%, 100% {
+    border-right-color: transparent;
+  }
+  50% {
+    border-right-color: pink;
+  }
+}
+
+@layer utilities {
+  .animate-blink {
+    animation: blink .5s alternate infinite;
+  }
+
+  .animate-typing {
+    animation: typing 2s steps(12), 
+    blink-border 0.5s step-end infinite alternate;
+    border-right: 3px solid pink;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+  }
+
+}
+
+
+
