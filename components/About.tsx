@@ -40,7 +40,7 @@ const About = () => {
       <div className="container mx-auto flex justify-center items-center">
         <article className="flex-col flex space-y-4 w-full items-center justify-center">
           <div className="w-full max-w-[700px]">
-            <h3 className="text-lg font-semibold text-left">/ About me</h3>
+            <h3 className="text-xl font-semibold text-left">/ About me</h3>
           </div>
 
           {/* BENTO 3x3*/}
