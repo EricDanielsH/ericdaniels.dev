@@ -9,16 +9,20 @@ const Hero = () => {
     <section className="flex flex-1 items-center justify-center py-28">
       <div className="container mx-auto flex items-center justify-center px-4 md:px-16 flex-col md:flex-row gap-10 md:gap-36 text-center">
         <Image
-          src="/assets/images/hero-pfp.jpeg"
+          src="/assets/images/eric-hero.JPG"
           width={300}
           height={300}
-          alt="hero"
-          className="md:flex rounded-full max-w-[250px] border-[2px] border-black shadow-lg"
+          alt="hero_image"
+          objectFit="cover"
+          objectPosition="center"
+          className="md:flex rounded-full max-w-[250px] border-[2px] border-purple-500 shadow-lg "
         />
         {/* RIGHT */}
         <div className="flex flex-col justify-between items-center w-[30%] h-full">
           <div className="flex-col">
-            <h1 className="text-4xl md:text-6xl w-full pr-1 font-bold animate-typing">Eric Daniels</h1>
+            <h1 className="text-4xl md:text-6xl w-full pr-1 font-bold animate-typing">
+              Eric Daniels
+            </h1>
             <h2 className="text-xl md:text-2xl font-semibold text-nowrap">
               Software Developer
             </h2>
@@ -51,7 +55,7 @@ const Hero = () => {
               Github
             </Link>
           </div>
-          <div id='about'></div>
+          <div id="about"></div>
         </div>
       </div>
     </section>

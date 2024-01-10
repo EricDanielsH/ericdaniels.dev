@@ -55,7 +55,7 @@ const Navbar = () => {
         </ul>
 
         {/* MOBILE NAV */}
-        <div className="md:hidden flex relative cursor-pointer">
+        <div className="md:hidden flex relative cursor-pointer text-base">
           <div onClick={handleMenu} className="cursor-pointer ">
             {isOpen ? (
               <IoMdClose
@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
           {isOpen && (
             <div className="bg-white absolute right-0 top-full p-4 mt-3 flex-col min-w-[200px] rounded-lg shadow-md">
-              <ul className="flex flex-col gap-2 w-full items-end justify-end font-semibold text-xl">
+              <ul className="flex flex-col gap-2 w-full items-end justify-end font-semibold text-base">
                 <li>
                   <Link
                     href="#about"
@@ -100,11 +100,12 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ul>
+              {/* ICONS */}
               <div className="flex flex-col justify-center gap-4 mt-6">
                 <Link
                   href="https://www.linkedin.com/in/EricDanielsH/"
                   target="_blank"
-                  className="flex items-center justify-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-lg"
+                  className="flex items-center justify-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-purple-200 transition ease duration-300 cursor-pointer text-lg"
                 >
                   <FaLinkedin title="LinkedIn" size={30} />
                   LinkedIn
@@ -112,7 +113,7 @@ const Navbar = () => {
                 <Link
                   href="https://drive.google.com/file/d/138ZZrslqwzySRxC0CfdhYctMS8CwOFx3/view?usp=sharing"
                   target="_blank"
-                  className="flex items-center justify-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-xl"
+                  className="flex items-center justify-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-purple-200 transition ease duration-300 cursor-pointer text-xl"
                 >
                   <IoIosDocument title="CV" size={30} />
                   Resume
@@ -120,7 +121,7 @@ const Navbar = () => {
                 <Link
                   href="https://www.linkedin.com/in/EricDanielsH/"
                   target="_blank"
-                  className="flex items-center justify-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-lg"
+                  className="flex items-center justify-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-purple-200 transition ease duration-300 cursor-pointer text-lg"
                 >
                   <FaGithub title="Github" size={30} />
                   Github

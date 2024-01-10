@@ -4,8 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 const About = () => {
-  const bentoImage: string = "/assets/images/bento-2.png";
-
   const birthdayMonth: number = 2;
   const birthdayDay: number = 10;
   const today: Date = new Date();
@@ -33,7 +31,7 @@ const About = () => {
   const daysUntilBirthday: number = Math.ceil(diff / (1000 * 60 * 60 * 24));
 
   return (
-    <section className="py-28 bg-slate-50 px-4 md:px-16 flex flex-col justify-center items-center">
+    <section className="py-28 bg-purple-100 px-4 md:px-16 flex flex-col justify-center items-center">
       <div className="container mx-auto flex justify-center items-center">
         <article className="flex-col flex space-y-4 w-full items-center justify-center">
           <div className="w-full max-w-[700px]">
@@ -76,10 +74,8 @@ const About = () => {
             <Link
               href="https://www.buymeacoffee.com/ericdanielsh"
               target="_blank"
-              className="border-black border-2 rounded-xl text-center col-span-2 row-span-2 flex items-center justify-center  bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-400"
-            >
-              <SiBuymeacoffee size={50} />
-            </Link>
+              className="border-black border-2 rounded-xl text-center col-span-2 row-span-2 flex items-center justify-center bg-[url('/assets/images/eric-about.JPG')] bg-cover bg-no-repeat  "
+            ></Link>
 
             <div className="border-black border-2 rounded-xl text-center col-span-4 row-span-1 bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 flex items-center justify-center text-lg font-semibold text-white">
               Brazilian jiu-jitsu 🤼🏽
