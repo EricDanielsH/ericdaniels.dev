@@ -15,6 +15,7 @@ import {
   SiC,
   SiTypescript,
   SiGooglecloud,
+  SiMongodb,
 } from "react-icons/si";
 
 type Props = {
@@ -48,6 +49,7 @@ const logos: Record<string, JSX.Element> = {
     <SiGooglecloud size={20} className="text-red-500" title="Google Cloud" />
   ),
   c: <SiC size={20} className="text-blue-500" title="C" />,
+  mongo: <SiMongodb size={20} className="text-green-500" title="MongoDB" />,
 };
 
 const ProjectCard = ({ id, title, description, image, icons, link }: Props) => {
