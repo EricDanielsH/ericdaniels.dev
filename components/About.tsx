@@ -74,7 +74,7 @@ const About = () => {
             <Link
               href="https://www.buymeacoffee.com/ericdanielsh"
               target="_blank"
-              className="border-black border-2 rounded-xl text-center col-span-2 row-span-2 flex items-center justify-center bg-[url('/assets/images/eric-about.JPG')] bg-cover bg-no-repeat  "
+              className="border-black border-2 rounded-xl text-center col-span-2 row-span-2 flex items-center justify-center bg-[url('/assets/images/eric-about.JPG')] bg-cover bg-no-repeat bg-center "
             ></Link>
 
             <div className="border-black border-2 rounded-xl text-center col-span-4 row-span-1 bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 flex items-center justify-center text-lg font-semibold text-white">
