@@ -4,7 +4,7 @@
     "title": "Promptopia",
     "description": [
       "Website to post your best AI Prompts.",
-      "Implements Google Auth"
+      "Implements Google Auth and MongoDB."
     ],
     "image": "promptopia.png",
     "icons": ["html", "js", "tailwind", "react", "nextjs", "google"],
@@ -41,7 +41,7 @@
     ],
     "image": "stardust-crusaders.png",
     "icons": ["c"],
-    "link": "https://github.com/EricDanielsH/StartdustCrusaders"
+    "link": "https://github.com/EricDanielsH/StardustCrusaders"
   },
   {
     "id": 5,
@@ -50,7 +50,7 @@
       "Website to host all my projects.",
       "Will add a blog, Linktree and URL shortener in the future"
     ],
-    "image": "promptopia.png",
+    "image": "portfolio.png",
     "icons": ["html", "tailwind", "ts", "react", "nextjs"],
     "link": "https://github.com/EricDanielsH/ericdaniels.dev"
   }
