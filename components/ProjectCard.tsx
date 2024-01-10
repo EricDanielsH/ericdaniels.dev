@@ -64,7 +64,7 @@ const ProjectCard = ({ id, title, description, image, icons, link }: Props) => {
         href={link}
         title="Check on Github!"
         target="_blank"
-        className="absolute shadow-lg rounded-full top-0 right-0 m-3 cursor-pointer hover:text-pink-300 bg-white"
+        className="absolute shadow-lg rounded-full top-0 right-0 m-3 cursor-pointer hover:text-purple-400 bg-white"
       >
         <IoLogoGithub size={30} />
       </Link>
