@@ -52,7 +52,7 @@ const logos: Record<string, JSX.Element> = {
 
 const ProjectCard = ({ id, title, description, image, icons, link }: Props) => {
   return (
-    <article className="max-w-[500px] bg-pink-100 relative rounded-xl shadow-md">
+    <article className="max-w-[500px] bg-purple-200 relative rounded-xl shadow-md">
       <Image
         src={`/assets/images/${image}`}
         alt="Project-image"
@@ -78,7 +78,7 @@ const ProjectCard = ({ id, title, description, image, icons, link }: Props) => {
         ))}
       </div>
       {/* ICONS */}
-      <div className="bg-pink-950 p-4 flex gap-2 rounded-b-xl">
+      <div className="bg-purple-950 p-4 flex gap-2 rounded-b-xl">
         {icons.map(
           (icon, index) => logos[icon] && <div key={index}>{logos[icon]}</div>
         )}

@@ -29,7 +29,7 @@ const Hero = () => {
             <Link
               href="https://www.linkedin.com/in/EricDanielsH/"
               target="_blank"
-              className="flex justify-center items-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-base  shadow-md"
+              className="flex justify-center items-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-purple-200 transition ease duration-300 cursor-pointer text-base  shadow-md"
             >
               <FaLinkedin title="LinkedIn" size={30} />
               LinkedIn
@@ -37,7 +37,7 @@ const Hero = () => {
             <Link
               href="https://drive.google.com/file/d/138ZZrslqwzySRxC0CfdhYctMS8CwOFx3/view?usp=sharing"
               target="_blank"
-              className="flex justify-center items-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-base  shadow-md"
+              className="flex justify-center items-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-purple-200 transition ease duration-300 cursor-pointer text-base  shadow-md"
             >
               <IoIosDocument title="CV" size={30} />
               Resume
@@ -45,7 +45,7 @@ const Hero = () => {
             <Link
               href="https://www.linkedin.com/in/EricDanielsH/"
               target="_blank"
-              className="flex justify-center items-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-base shadow-md"
+              className="flex justify-center items-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-purple-200 transition ease duration-300 cursor-pointer text-base shadow-md"
             >
               <FaGithub title="Github" size={30} />
               Github

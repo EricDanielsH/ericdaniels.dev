@@ -50,7 +50,7 @@ const Contact = () => {
           </div>
 
           <div>
-            <button type="submit" className="bg-pink-200 p-2 font-semibold rounded-full px-4 mt-4">SEND</button>
+            <button type="submit" className="bg-purple-400 p-2 font-semibold rounded-full px-4 mt-4">SEND</button>
           </div>
         </form>
       </div>

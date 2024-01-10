@@ -31,7 +31,7 @@ const Navbar = () => {
           <li>
             <Link
               href="#about"
-              className="hover:text-pink-300 ease-linear duration-150"
+              className="hover:text-purple-400 ease-linear duration-150"
             >
               About me
             </Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
           <li>
             <Link
               href="#projects"
-              className="hover:text-pink-300 ease-linear duration-150"
+              className="hover:text-purple-400 ease-linear duration-150"
             >
               Projects
             </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
           <li>
             <Link
               href="#contact"
-              className="hover:text-pink-300 ease-linear duration-150"
+              className="hover:text-purple-400 ease-linear duration-150"
             >
               Contact
             </Link>
@@ -60,12 +60,12 @@ const Navbar = () => {
             {isOpen ? (
               <IoMdClose
                 size={30}
-                className="hover:text-pink-300 transition-all duration-150 ease-linear"
+                className="hover:text-purple-400 transition-all duration-150 ease-linear"
               />
             ) : (
               <IoMdMenu
                 size={30}
-                className="hover:text-pink-300 transition-all duration-150 ease-linear"
+                className="hover:text-purple-400 transition-all duration-150 ease-linear"
               />
             )}
           </div>
@@ -76,7 +76,7 @@ const Navbar = () => {
                   <Link
                     href="#about"
                     onClick={() => setIsOpen(false)}
-                    className="hover:text-pink-300 ease-linear duration-150"
+                    className="hover:text-purple-400 ease-linear duration-150"
                   >
                     About me
                   </Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
                   <Link
                     href="#projects"
                     onClick={() => setIsOpen(false)}
-                    className="hover:text-pink-300 ease-linear duration-150"
+                    className="hover:text-purple-400 ease-linear duration-150"
                   >
                     Projects
                   </Link>
@@ -94,7 +94,7 @@ const Navbar = () => {
                   <Link
                     href="#contact"
                     onClick={() => setIsOpen(false)}
-                    className="hover:text-pink-300 ease-linear duration-150"
+                    className="hover:text-purple-400 ease-linear duration-150"
                   >
                     Contact
                   </Link>
@@ -104,7 +104,7 @@ const Navbar = () => {
                 <Link
                   href="https://www.linkedin.com/in/EricDanielsH/"
                   target="_blank"
-                  className="flex items-center justify-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-lg"
+                  className="flex items-center justify-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-lg"
                 >
                   <FaLinkedin title="LinkedIn" size={30} />
                   LinkedIn
@@ -112,7 +112,7 @@ const Navbar = () => {
                 <Link
                   href="https://drive.google.com/file/d/138ZZrslqwzySRxC0CfdhYctMS8CwOFx3/view?usp=sharing"
                   target="_blank"
-                  className="flex items-center justify-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-xl"
+                  className="flex items-center justify-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-xl"
                 >
                   <IoIosDocument title="CV" size={30} />
                   Resume
@@ -120,7 +120,7 @@ const Navbar = () => {
                 <Link
                   href="https://www.linkedin.com/in/EricDanielsH/"
                   target="_blank"
-                  className="flex items-center justify-center gap-2 border-pink-300 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-lg"
+                  className="flex items-center justify-center gap-2 border-purple-400 border-[2px] rounded-md p-2 font-semibold hover:bg-pink-200 transition ease duration-300 cursor-pointer text-lg"
                 >
                   <FaGithub title="Github" size={30} />
                   Github
