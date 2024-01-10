@@ -24,6 +24,7 @@ const Projects = () => {
             />
           ))}
         </div>
+        <div id="contact"></div>
       </div>
     </section>
   );
