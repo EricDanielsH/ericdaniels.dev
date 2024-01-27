@@ -42,16 +42,5 @@
     "image": "stardust-crusaders.png",
     "icons": ["c"],
     "link": "https://github.com/EricDanielsH/StardustCrusaders"
-  },
-  {
-    "id": 5,
-    "title": "Personal portfolio",
-    "description": [
-      "Website to host all my projects.",
-      "Will add a blog, Linktree and URL shortener in the future"
-    ],
-    "image": "portfolio.png",
-    "icons": ["html", "tailwind", "ts", "react", "nextjs"],
-    "link": "https://github.com/EricDanielsH/ericdaniels.dev"
   }
 ]
