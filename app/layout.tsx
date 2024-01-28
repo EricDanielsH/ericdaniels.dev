@@ -18,6 +18,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
